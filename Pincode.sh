@@ -1,7 +1,7 @@
 #!/bin/bash -x
 
 read -p "Enter Pincode:  " pin
-pin1='^[0-9]{6}$'
+pin1='^[0-9]{3}[ ]?[0-9]{3}$'
 
 if [[ $pin =~ $pin1 ]]
 then 
